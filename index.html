@@ -6,9 +6,9 @@
   <title>Meu cartão</title>
   <style>
     :root {
-      --destaque: #B0451F;   /* troque esta cor! */
-      --fundo: #F7F3EA;
-      --cartao: #FFFDF8;
+      --destaque: rgb(226, 198, 38);   /* troque esta cor! */
+      --fundo: #272727;
+      --cartao: #20201e;
       --texto: #1F2328;
       --suave: #6B665D;
     }
@@ -27,7 +27,7 @@
       max-width: 440px;
       padding: 40px 32px;
       background: var(--cartao);
-      border: 1px solid #E2DBCC;
+      border: 1px solid #b8820f;
       border-radius: 20px;
       box-shadow: 0 12px 32px rgba(31, 35, 40, 0.08);
       text-align: center;
@@ -40,11 +40,11 @@
       place-items: center;
       border-radius: 50%;
       background: var(--destaque);
-      color: #FFFFFF;
+      color: #0a0a0a;
       font-size: 32px;
       font-weight: 700;
     }
-    h1 { font-size: 28px; }
+    h1 { font-size: 28px; color: rgb(185, 161, 23); ;}
     .curso { margin-top: 4px; color: var(--destaque); font-weight: 600; }
     .bio { margin: 16px 0 24px; color: var(--suave); line-height: 1.6; }
     .tags {
@@ -78,7 +78,7 @@
       padding: 12px 24px;
       border-radius: 999px;
       background: var(--destaque);
-      color: #FFFFFF;
+      color: #000000;
       font-weight: 600;
       text-decoration: none;
     }
@@ -88,14 +88,17 @@
 </head>
 <body>
   <main class="cartao">
-    <div class="avatar">SN</div>
-    <h1>Seu Nome</h1>
-    <p class="curso">ADS · 1º semestre</p>
+    <div class="avatar">AS</div>
+    <h1>Arthur Rodrigues dos Santos</h1>
+    <p class="curso">ADS · 2º semestre</p>
     <p class="bio">Estou aprendendo Git e GitHub para nunca mais perder código.</p>
     <ul class="tags">
       <li>Python</li>
+      <li>C++</li>
       <li>Games</li>
-      <li>Café</li>
+      <li>Música</li>
+      <li>Futebol</li>
+      <li>Formula 1</li>
     </ul>
     <div class="terminal"><span>$</span> git commit -m "minha primeira página"</div>
     <a class="botao" href="projetos.html">Ver meus projetos →</a>
